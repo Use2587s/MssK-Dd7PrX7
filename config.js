@@ -8,8 +8,8 @@ module.exports = {
   scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   serverDeafen: true, //If you want bot to stay deafened
   defaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
-  supportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Issues: "https://github.com/SudhanPlayz/Discord-MusicBot/issues", //Bug Report Link
+  supportServer: "https://discord.gg/loginn", //Support Server Link
+  Issues: "https://github.com/lll___", //Bug Report Link
   permissions: 826839002433, //Bot Inviting Permissions
   disconnectTime: 30000, //How long should the bot wait before disconnecting from the voice channel. in miliseconds. set to 1 for instant disconnect.
   alwaysplay: true, // when set to true music will always play no matter if theres no one in voice channel.
@@ -18,10 +18,10 @@ module.exports = {
   // The default one should work fine, these are picked due to their speed and not using cloudflare.
   nodes: [
     {
-      identifier: "Main", //- Used for indentifier in stats commands.
-      host: "",
-      port: 3000,
-      password: "",
+      identifier: "MainV", //- Used for indentifier in stats commands.
+      host: "lava.link",
+      port: 80,
+      password: "PASS&é"",
       retryAmount: 15, //- The amount of times to retry connecting to the node if connection got dropped.
       retryDelay: 6000, //- Delay between reconnect attempts if connection is lost.
       secure: false, //- Can be either true or false. Only use true if ssl is enabled!
@@ -30,12 +30,12 @@ module.exports = {
   ],
   embedColor: "#ffeac8", //Color of the embeds, hex supported
   presence: {
-    //PresenceData object | https://discord.js.org/#/docs/main/stable/typedef/PresenceData
+    //<3
     status: "online", // You can have online, idle, and dnd(invisible too but it make people think the bot is offline)
     activities: [
       {
-        name: "Music | >help", //Status Text
-        type: "STREAMING", // PLAYING, WATCHING, LISTENING, STREAMING
+        name: "Love uu", //Status Text
+        type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
         url: process.env.stream || "",
       },
     ],
